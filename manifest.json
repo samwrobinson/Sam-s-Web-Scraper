@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Google Maps Easy Scrape",
+    "version": "1.0",
+    "description": "Google Maps Easy Scrape by Mike Powers",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": [
+      "https://www.googleapis.com/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "map.png",
+      "48": "map.png",
+      "128": "map.png"
+    }
+  }
+  
